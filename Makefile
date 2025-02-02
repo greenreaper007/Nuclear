@@ -6,7 +6,7 @@
 #    By: flturbou <flturbou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/02 19:46:55 by flturbou          #+#    #+#              #
-#    Updated: 2025/02/02 21:05:14 by flturbou         ###   ########.fr        #
+#    Updated: 2025/02/02 22:32:56 by flturbou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,6 +65,6 @@ fclean:		clean
 			@echo "$(CYAN)NuclearBomb executable files cleaned!$(DEF_COLOR)"
 
 re:			fclean all
-			@echo "$(GREEN)Cleaned and rebuilt everything for philosopher!$(DEF_COLOR)"
+			@echo "$(GREEN)Cleaned and rebuilt everything for NuclearBomb!$(DEF_COLOR)"
 
 .PHONY:		all clean fclean re
