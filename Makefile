@@ -6,7 +6,7 @@
 #    By: flturbou <flturbou@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/02 19:46:55 by flturbou          #+#    #+#              #
-#    Updated: 2025/02/02 19:48:05 by flturbou         ###   ########.fr        #
+#    Updated: 2025/02/02 21:05:14 by flturbou         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ WHITE = \033[0;97m
 
 #Sources
 
-SRC_FILES	=		main
+SRC_FILES	=		main get_next_line
 
 
 SRC			=		$(addprefix $(SRC_DIR), $(addsuffix .c, $(SRC_FILES)))
